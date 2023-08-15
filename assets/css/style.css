@@ -55,6 +55,7 @@ body
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
     min-height: 100vh;
     position: relative;
     background: rgb(255,250,245);
@@ -62,7 +63,7 @@ body
     background-size: cover;
     background-attachment: fixed;
     padding-top: 100px;
-    margin: 0px 80px;
+    /* margin: 0px 80px; */
 }
 header .hamburger
 {
@@ -79,7 +80,7 @@ header
     left: 0;
     z-index: 1;
     padding: 20px 60px;
-    background: rgb(255,250,245);
+    background: transparent;
     position: fixed;
     border-bottom: 1px solid #aaa;
 }
